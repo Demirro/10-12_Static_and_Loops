@@ -22,7 +22,7 @@ Die zwei Methoden sollen wie folgt aufgebaut werden:
 - Nimmt als Parameter einen int, dessen Fakultät errechnet werden soll
 - Gibt das Ergebnis als integer zurück
 
-Für beide dieser Methoden kann man verschiedene Schleifen benutzen, um das Problem zu lösen. Versucht vielleicht mal verschiedene Ansätze, damit ihr sowohl while als auch For-Schleifen kennenlernt. Zusätzlich könnt ihr eure Methoden mit JavaDoc kommentieren und auch da ein wenig üben. Gerade bei Utility-Klassen und Methoden, wie in dieser Aufgabe programmiert werden sollen, ergibt das besonders viel Sinn.
+Für beide dieser Methoden kann man verschiedene Schleifen benutzen, um das Problem zu lösen. Versucht vielleicht mal verschiedene Ansätze, damit ihr sowohl while als auch For-Schleifen kennenlernt. Zusätzlich könnt ihr eure Methoden mit JavaDoc kommentieren und auch da ein wenig üben. Gerade bei Utility-Klassen und Methoden ergibt das besonders viel Sinn.
 
     
 ### ℹ️ Resourcen:
