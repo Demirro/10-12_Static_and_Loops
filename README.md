@@ -1,55 +1,36 @@
-# 12-11_Syntax_Variablen_Datentypen
-Übungsaufgabe für das Programmierpraktikum im Wise 20/21 (12.11.2020)
+# 10-12 Static und Loops
+Übungsaufgabe für das Programmierpraktikum im Wise 20/21 zum 10.12.2020
 
-#Willkommen bei der ersten Übungsaufgabe.
+#Willkommen bei der fünften Übungsaufgabe.
 
-Zu aller Erst: Guckt euch das Seminarvideo an bevor ihr diese Aufgabe bearbeitet.
-Die Videos bzw. das Hauptseminar werden immer die Grundlage für diese Übungsaufgaben bilden.
-
-Der hochgeladene Code ist eine Musterlösung. Es ist nicht die einzig wahre Lösung, aber so wie ich mir die Lösung der Aufgabe vorgestellt habe.
+Diese Woche halten wir die Aufgabe kurz. Wir wenden sowohl das keyword *static* als auch Schleifen an. Das hochgeladene Projekt ist wieder eine Vorlage. Dort sind nur Tests enthalten, um zu sehen, ob eure Methoden funktionieren
 
 ### 📝 Aufgabe:
 
-Es handelt sich bei dieser Aufgabe um eine relativ kleine Aufgabe. Sie soll dazu dienen euch die primitiven Datentypen etwas näher zu bringen und diese richtig auszuwählen und einzusetzen.
+Ihr habt im Seminar bereits die Math Klasse aus der Standardbibliothek in Java kennengelernt. Jetzt gehen wir aber einen Schritt zurück und programmieren unsere eigene simple MathUtils Klasse. Diese soll zwei Methoden enthalten, die in unserem gesamten Projekt aufrufbar sind. Dabei sollte kein Objekt der Klasse *MathUtils* erstellt werden müssen, um auf die Methoden zugreifen zu können.
+Die zwei Methoden sollen wie folgt aufgebaut werden:
 
-![personalausweis](https://raw.githubusercontent.com/Demirro/12-11_Syntax_Variablen_Datentypen/main/PersonalAusweis_Java.jpg)
+*power*:
+- Berechnet die Potenz einer angegebenen Exponation
+- Nimmt zwei Integer als Parameter. Dabei stellen die zwei Parameter folgendes dar:
+    - Basis
+    - Exponent
+- Gibt den Potenzwert als integer zurück
 
-Hier seht ihr einen Personalausweis mit diversen Feldern. Diese Felder beschreiben die Person und bilden diverse Eigenschaften ab.
-Dabei sollte in eurem Programm immer der zweite Teil des Feldes in eine Variable gespeichert werden. Beispiel für ein Feld:
+*factorial*:
+- Berrechnet die Fakultät einer angegeben Zahl
+- Nimmt als Parameter einen int, dessen Fakultät errechnet werden soll
+- Gibt das Ergebnis als int zurück
 
-Vorname: Max
-
-Hier sollte "Max" in eine Variable gespeichert werden.
-
-Es sollte auch direkt auffallen, dass die verschiedenen Eigenschaften auch verschiedene "Datentypen" benutzen.
-
-Ihr sollt nun die gesamten Daten des Personalausweises in ein kleines Java-Programm übertragen. 
-1. Erstellt ein neues Java Projekt und die benötigte Main-Methode
-2. Erstellt eine Variable für jedes Datenfeld des Personalausweises.
-    1. Überlegt euch immer welcher Datentyp am sinnvollsten ist. Es wird nicht unbedingt jeder einzelene Datentyp benutzt.
-3. Gebt die gespeicherten Variablen in der Konsole aus (eine Zeile pro Variable)
-4. Versucht euren Code sinnvoll zu kommentieren
-5. Beachtet die Java Naming Conventions
-
-Als kleine Hilfestellung findet ihr hier unten noch ein paar Ressourcen, die euch weiterhelfen können. Beziehungsweise die Überblicke über die verschiedenen Themen aus dem Java-Wegweiser.
-
-## Datentyp String
-Ein Datentyp der per se kein primitiver Datentyp ist, jedoch fast so genutzt wird, ist der *String*.
-Ein String wird genutzt, um eine längere Zeichenkette, wie einen Satz, zu speichern, verarbeiten oder auszugeben. Beispiel wie man eine String-Variable in Java erstellt:
-
-`String variable = "Hier ist eine längere Zeichenkette";`
-
-Den Datentypen String werdet ihr in dieser Aufgabe nutzen müssen.
+Für beide dieser Methoden kann man verschiedene Schleifen benutzen, um das Problem zu lösen. Versucht vielleicht mal verschiedene Ansätze, damit ihr sowohl while als auch For-Schleifen kennenlernt. Zusätzlich könnt ihr eure Methoden mit JavaDoc kommentieren und auch da ein wenig üben. Gerade bei Utility-Klassen und Methoden, wie in dieser Aufgabe programmiert werden sollen, ergibt das besonders viel Sinn.
 
     
 ### ℹ️ Resourcen:
 Hier noch ein paar nützliche 📃Artikel, 🖊️Threads und 🎥Videos
 
-- [🎥 Börges Seminar Video](https://www.ilias.uni-koeln.de/ilias/ilias.php?ref_id=3638292&eid=ccc0c271-a980-47c7-8484-c1160a1e6933&cmd=streamVideo&cmdClass=xoctplayergui&cmdNode=wn:os:17u:185&baseClass=ilrepositorygui)
+- [🎥 Börges Seminar Video](https://www.ilias.uni-koeln.de/ilias/ilias.php?ref_id=3638292&eid=8365d934-fb95-44f2-ac19-397d2e32f014&cmd=streamVideo&cmdClass=xoctplayergui&cmdNode=wn:os:17u:185&baseClass=ilrepositorygui)
 
-- [📃 Primitive Datentypen (Wegweiser)](https://github.com/DH-Cologne/java-wegweiser/blob/master/articles/Datentypen.md)
-- [📃 Primitive Datentypen (extern)](https://de.wikibooks.org/wiki/Java_Standard:_Primitive_Datentypen)
-- [📃 Konsolenausgabe (grundlegend)](https://www.geeksforgeeks.org/system-out-println-in-java/)
+- [📃 Static Members (Wegweiser)](https://dh-cologne.github.io/java-wegweiser/articles/Static-Members.html)
+- [📃 Schleifen (Wegweiser)](https://dh-cologne.github.io/java-wegweiser/articles/Schleifen.html)
+
 - [📃 Java Naming Conventions](https://github.com/DH-Cologne/java-wegweiser/blob/master/articles/Naming-Conventions.md)
-- [📃 Java String Datentyp](https://www.inf.fh-flensburg.de/lang/prog/string.htm)
-- [📃 ASCII-Tabelle (für char)](https://www.torsten-horn.de/techdocs/ascii.htm)
