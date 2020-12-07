@@ -1,7 +1,7 @@
 # 10-12 Static und Loops
 Übungsaufgabe für das Programmierpraktikum im Wise 20/21 zum 10.12.2020
 
-#Willkommen bei der fünften Übungsaufgabe.
+# Willkommen bei der fünften Übungsaufgabe.
 
 Diese Woche halten wir die Aufgabe kurz. Wir wenden sowohl das keyword *static* als auch Schleifen an. Das hochgeladene Projekt ist wieder eine Vorlage. Dort sind nur Tests enthalten, um zu sehen, ob eure Methoden funktionieren
 
