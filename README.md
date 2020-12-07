@@ -3,7 +3,7 @@
 
 # Willkommen bei der fünften Übungsaufgabe.
 
-Diese Woche halten wir die Aufgabe kurz. Wir wenden sowohl das keyword *static* als auch Schleifen an. Das hochgeladene Projekt ist wieder eine Vorlage. Dort sind nur Tests enthalten, um zu sehen, ob eure Methoden funktionieren
+Diese Woche halten wir die Aufgabe kurz. Wir wenden sowohl das keyword *static* als auch Schleifen an. Das hochgeladene Projekt ist wieder eine Vorlage. Dort sind nur Tests enthalten, um zu sehen, ob eure Methoden funktionieren.
 
 ### 📝 Aufgabe:
 
@@ -20,7 +20,7 @@ Die zwei Methoden sollen wie folgt aufgebaut werden:
 *factorial*:
 - Berrechnet die Fakultät einer angegeben Zahl
 - Nimmt als Parameter einen int, dessen Fakultät errechnet werden soll
-- Gibt das Ergebnis als int zurück
+- Gibt das Ergebnis als integer zurück
 
 Für beide dieser Methoden kann man verschiedene Schleifen benutzen, um das Problem zu lösen. Versucht vielleicht mal verschiedene Ansätze, damit ihr sowohl while als auch For-Schleifen kennenlernt. Zusätzlich könnt ihr eure Methoden mit JavaDoc kommentieren und auch da ein wenig üben. Gerade bei Utility-Klassen und Methoden, wie in dieser Aufgabe programmiert werden sollen, ergibt das besonders viel Sinn.
 
